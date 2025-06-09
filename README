@@ -1,0 +1,10 @@
+can u make static site that works in github pages.
+the function is below.
+#1 accept pictures.
+#2 rename pictures into 1,2,3,4・・・ based on date time that picture taken or the original name(sort like windows file system)
+#3 download tha picures as zip
+
+requirements
+-work with git hub pages
+-havemodern ui 
+-works in both pc and mobile env
