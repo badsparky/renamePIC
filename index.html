@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture Renamer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/exif-js/2.3.0/exif.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Picture Renamer</h1>
+        <input type="file" id="fileInput" multiple accept="image/*">
+        <button id="downloadBtn" disabled>Download Zip</button>
+        <div id="preview"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
